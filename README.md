@@ -1,2 +1,5 @@
 # Lab 8 - Starter
 1. Within a Github aciton that runs whenever code is pushed: with using GitHub acitons, it can runs the tests and provided the results of each test in the pull request, which helps detect any errors early and makes it much more efficient to fix later in the development. We can locate and fix any bugs immediatly.
+2. No, I will not use an end to end test to check the functionality of a single function. I will rather perform a unit testing because it can focus on testing a specific function without the need for the entire application.
+3. I would not use a unit test to test the "message" feature. Testing this feature may involoves all the other features of this application, for example the message length and consistency between what a user sends and what another user receives. I think using end-to-end testing is more appropriate for this feature.
+4. I would use a unit test to test the "max message length". Testing the maximum message length does not require the involvement of other features of the application, we only need to detect if it is less than or equal to 80 characters when the user types.
